@@ -21,19 +21,23 @@
 Создание игровой среды. Добавляем создаем и меняем сетку.
 
 ![image](https://user-images.githubusercontent.com/119733911/205499655-443c3e1a-9490-4def-953e-7bbaaa197742.png)
+
 Рисунок 15.1 Смена сетки
 
 Создаем папку Palettes и Sprites и переносим в папку со спрайтами наши картинки миров.
 
 ![image](https://user-images.githubusercontent.com/119733911/205499778-6287b130-fa5c-4d29-b161-2bedfcb615e8.png)
+
 Рисунок 15.2 Папка Sprites
 
 Рисуем любой мир какой мы хотим использовать в нашей игре
 
 ![image](https://user-images.githubusercontent.com/119733911/205500059-a614b89e-574a-41dc-96f9-6f5a28bcf33d.png)
+
 Рисунок 15.3 Созданный мир		
 
 ![image](https://user-images.githubusercontent.com/119733911/205500106-d5cecf29-1e87-4958-a296-8b26f3e1f612.png)
+
 Рисунок 15.4 Префаб Palettes
 
 Создаем Tilemap Collider для всех обьектов на игровой карте так же нам нужно добавть RGBD 2d с типом тела Static, потому что, если мы этого не сделаем, то наша карта просто упадет за пределы экрана.
